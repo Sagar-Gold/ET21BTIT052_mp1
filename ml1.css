@@ -11,7 +11,12 @@
     background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg");
     min-height: 100%;
 }
-.first_view,.second_view,.third_view{
+
+.forth_view{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image1.jpg");
+    min-height: 100%;
+}
+.first_view,.second_view,.third_view,.forth_view{
     position: relative;
     background-position: center;
     background-size: cover;
@@ -42,7 +47,7 @@ section{
     color: white;
 }
 
-.text {
+.SectionText {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -52,7 +57,7 @@ section{
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-.text .border {
+.SectionText .centerText {
     background-color: #111;
     color: #fff;
     padding: 22px;
